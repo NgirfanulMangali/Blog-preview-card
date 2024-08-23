@@ -17,13 +17,14 @@ body {
   width: 430px;
   height: 600px;
   display: grid;
-  gap: 0px;
   margin-top: 10px;
   justify-items: stretch;
   border-style: solid;
   border-width: 2px;
   border-radius: 20px;
   box-shadow: 10px 10px;
+  justify-items: stretch;
+  align-content: space-between;
 }
 img {
   border-radius: 20px;
@@ -32,10 +33,14 @@ p {
   font-size: 16px;
 }
 h1 {
-  font-size: 30px;
+  font-size: 28px;
+  color:  hsl(47, 88%, 63%);
 }
-.article {
+#article {
   line-height: 1.8;
+  font-size: 17px;
+  font-weight: 500;
+  color: hsl(0, 0%, 42%);
 }
 footer {
   display: flex;
@@ -43,13 +48,19 @@ footer {
  .textfooter{
   margin-left: 15px;
   margin-top: 5px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 800;
 }
 section {
   margin-top: 30px;
 }
 .label {
-  
+  font-weight: 800;
+  width: 88px;
+  padding: 5px;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  font-size: 15px;
 }
 
 
