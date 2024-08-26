@@ -1,3 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+background-color: hsl(47, 88%, 63%);
+font-family: "Figtree", sans-serif;
+}
+.container {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+.main {
+background-color: hsl(0, 0%, 100%);
+padding: 25px;
+width: 430px;
+height: 600px;
+display: grid;
+margin-bottom: 10px;
+justify-items: stretch;
+border-style: solid;
+border-width: 2px;
+border-radius: 20px;
+box-shadow: 10px 10px;
+justify-items: stretch;
+align-content: space-between;
+}
+img {
+border-radius: 20px;
+}
+p {
+font-size: 16px;
+}
+h1 {
+font-size: 28px;
+color:  hsl(47, 88%, 63%);
+}
+#article {
+line-height: 1.8;
+font-size: 17px;
+font-weight: 500;
+color: hsl(0, 0%, 42%);
+}
+footer {
+display: flex;
+}
+.textfooter{
+margin-left: 15px;
+margin-top: 5px;
+font-size: 16px;
+font-weight: 800;
+}
+section {
+margin-top: 30px;
+text-align: center;
+}
+.label {
+font-weight: 800;
+width: 90px;
+padding: 5px;
+background-color: hsl(47, 88%, 63%);
+border-radius: 5px;
+font-size: 14px;
+text-align: center;
+}
+.attribution {
+font-size: 11px;
+text-align: center;
+}
+.attribution a {
+color: hsl(228, 45%, 44%);
+}
+
 /* this screen for laptop */
 @media screen and (max-width: 1440px){
   * {
